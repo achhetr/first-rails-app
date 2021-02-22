@@ -1,5 +1,11 @@
+<div class="container">
+<div class="content">
 <p><%= params["question"]%></p>
-<p>- You</p>
+<p class="person">- You</p>
+</div>
+<div class="content coach">
 <p><%= @answer%></p>
-<p>-Your coach</p>
+<p class="person">-Your coach</p>
+</div>
 <%= link_to 'Ask a new question', :ask%>
+</div>
